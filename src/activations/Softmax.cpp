@@ -1,4 +1,4 @@
-#include "Softmax.hpp"
+#include "activations/Softmax.hpp"
 #include <cmath>
 #include <numeric>
 

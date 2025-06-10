@@ -1,4 +1,4 @@
-#include "ReLU.hpp"
+#include "activations/ReLU.hpp"
 
 ReLU::ReLU() : m_input(0, 0) {}
 

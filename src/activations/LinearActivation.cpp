@@ -1,4 +1,4 @@
-#include "LinearActivation.hpp"
+#include "activations/LinearActivation.hpp"
 
 LinearActivation::LinearActivation() {}
 
