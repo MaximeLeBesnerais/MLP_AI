@@ -1,7 +1,7 @@
 #ifndef L2_REGULARIZER_HPP
 #define L2_REGULARIZER_HPP
 
-#include "Regularizer.hpp"
+#include "regularizers/Regularizer.hpp"
 
 class L2Regularizer : public Regularizer
 {

@@ -1,7 +1,7 @@
 #ifndef ELASTIC_NET_REGULARIZER_HPP
 #define ELASTIC_NET_REGULARIZER_HPP
 
-#include "Regularizer.hpp"
+#include "regularizers/Regularizer.hpp"
 
 class ElasticNetRegularizer : public Regularizer
 {

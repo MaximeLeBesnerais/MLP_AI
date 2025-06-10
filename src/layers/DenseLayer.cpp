@@ -1,4 +1,4 @@
-#include "DenseLayer.hpp"
+#include "layers/DenseLayer.hpp"
 #include <stdexcept>
 
 DenseLayer::DenseLayer(int inputSize, int outputSize, std::shared_ptr<Activation> activation,
