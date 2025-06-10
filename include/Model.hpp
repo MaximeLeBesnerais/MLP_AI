@@ -1,7 +1,7 @@
 #ifndef MODEL_HPP
 #define MODEL_HPP
 
-#include "DenseLayer.hpp"
+#include "layers/DenseLayer.hpp"
 #include <vector>
 
 class Model
