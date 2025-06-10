@@ -1,4 +1,4 @@
-#include "ElasticNetRegularizer.hpp"
+#include "regularizers/ElasticNetRegularizer.hpp"
 #include <cmath>
 
 ElasticNetRegularizer::ElasticNetRegularizer(double lambda1, double lambda2)

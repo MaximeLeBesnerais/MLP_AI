@@ -1,19 +1,19 @@
 #include "Mains.hpp"
-#include "CmdParser.hpp" // Our new parser
+#include "utils/CmdParser.hpp" // Our new parser
 #include <iostream>
 #include <string>
 
 // Include all necessary headers for the actual implementations
 #include "Model.hpp"
-#include "DenseLayer.hpp"
-#include "ReLU.hpp"
-#include "LinearActivation.hpp"
-#include "Softmax.hpp"
-#include "MeanSquaredError.hpp"
-#include "CategoricalCrossEntropy.hpp"
-#include "Adam.hpp"
-#include "DataHandler.hpp"
-#include "Evaluation.hpp"
+#include "layers/DenseLayer.hpp"
+#include "activations/ReLU.hpp"
+#include "activations/LinearActivation.hpp"
+#include "activations/Softmax.hpp"
+#include "losses/MeanSquaredError.hpp"
+#include "losses/CategoricalCrossEntropy.hpp"
+#include "optimizers/Adam.hpp"
+#include "utils/DataHandler.hpp"
+#include "utils/Evaluation.hpp"
 #include <limits>
 #include <vector>
 

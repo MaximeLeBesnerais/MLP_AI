@@ -1,4 +1,4 @@
-#include "MeanSquaredError.hpp"
+#include "losses/MeanSquaredError.hpp"
 #include <cmath>
 #include <stdexcept>
 

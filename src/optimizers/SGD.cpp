@@ -1,4 +1,4 @@
-#include "SGD.hpp"
+#include "optimizers/SGD.hpp"
 
 SGD::SGD(std::vector<DenseLayer> &layers, double learning_rate)
     : Optimizer(layers, learning_rate) {}

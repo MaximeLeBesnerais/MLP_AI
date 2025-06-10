@@ -1,4 +1,4 @@
-#include "Adam.hpp"
+#include "optimizers/Adam.hpp"
 #include <cmath>
 
 Adam::Adam(std::vector<DenseLayer> &layers, double learning_rate,

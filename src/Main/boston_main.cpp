@@ -1,11 +1,11 @@
 #include <iostream>
 #include "Model.hpp"
-#include "DenseLayer.hpp"
-#include "ReLU.hpp"
-#include "LinearActivation.hpp" // Our new linear activation
-#include "MeanSquaredError.hpp" // Use MSE for regression
-#include "Adam.hpp"
-#include "DataHandler.hpp"
+#include "layers/DenseLayer.hpp"
+#include "activations/ReLU.hpp"
+#include "activations/LinearActivation.hpp" // Our new linear activation
+#include "losses/MeanSquaredError.hpp" // Use MSE for regression
+#include "optimizers/Adam.hpp"
+#include "utils/DataHandler.hpp"
 
 // Helper to separate last column as target
 std::pair<Matrix, Matrix> separate_features_target(const Matrix& data) {

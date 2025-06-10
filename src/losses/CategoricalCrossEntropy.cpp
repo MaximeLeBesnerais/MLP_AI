@@ -1,4 +1,4 @@
-#include "CategoricalCrossEntropy.hpp"
+#include "losses/CategoricalCrossEntropy.hpp"
 #include <cmath>
 #include <stdexcept>
 #include <limits>

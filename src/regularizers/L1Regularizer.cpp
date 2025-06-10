@@ -1,4 +1,4 @@
-#include "L1Regularizer.hpp"
+#include "regularizers/L1Regularizer.hpp"
 #include <cmath>
 
 L1Regularizer::L1Regularizer(double lambda) : m_lambda(lambda) {}

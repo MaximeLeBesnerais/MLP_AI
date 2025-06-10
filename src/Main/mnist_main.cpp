@@ -3,14 +3,14 @@
 #include <vector>
 
 #include "Model.hpp"
-#include "DenseLayer.hpp"
-#include "ReLU.hpp"
-#include "Softmax.hpp"
-#include "CategoricalCrossEntropy.hpp"
-#include "Adam.hpp"
-#include "DataHandler.hpp"
-#include "Evaluation.hpp"
-#include "ElasticNetRegularizer.hpp"
+#include "layers/DenseLayer.hpp"
+#include "activations/ReLU.hpp"
+#include "activations/Softmax.hpp"
+#include "losses/CategoricalCrossEntropy.hpp"
+#include "optimizers/Adam.hpp"
+#include "utils/DataHandler.hpp"
+#include "utils/Evaluation.hpp"
+#include "regularizers/ElasticNetRegularizer.hpp"
 
 int mnist()
 {
