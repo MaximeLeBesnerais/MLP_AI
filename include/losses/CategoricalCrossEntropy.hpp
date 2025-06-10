@@ -1,7 +1,7 @@
 #ifndef CATEGORICAL_CROSS_ENTROPY_HPP
 #define CATEGORICAL_CROSS_ENTROPY_HPP
 
-#include "Loss.hpp"
+#include "losses/Loss.hpp"
 
 class CategoricalCrossEntropy : public Loss {
 public:

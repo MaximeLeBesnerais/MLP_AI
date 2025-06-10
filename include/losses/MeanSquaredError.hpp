@@ -1,7 +1,7 @@
 #ifndef MEAN_SQUARED_ERROR_HPP
 #define MEAN_SQUARED_ERROR_HPP
 
-#include "Loss.hpp"
+#include "losses/Loss.hpp"
 
 class MeanSquaredError : public Loss {
 public:

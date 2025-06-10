@@ -2,8 +2,8 @@
 #define DENSE_LAYER_HPP
 
 #include "Matrix.hpp"
-#include "Activation.hpp"
-#include "Regularizer.hpp"
+#include "activations/Activation.hpp"
+#include "regularizers/Regularizer.hpp"
 #include <memory>
 
 enum class WeightInitType
