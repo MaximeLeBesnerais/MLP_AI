@@ -80,6 +80,15 @@ std::pair<Matrix, Matrix> read_csv_mnist(const std::string &filepath, int num_ro
     int rows_read = 0;
     while (std::getline(file, line) && (num_rows == -1 || rows_read < num_rows))
     {
+        // Trim leading whitespace
+        line.erase(0, line.find_first_not_of(" \t\n\r\f\v"));
+
+        // Skip empty lines or lines starting with '#'
+        if (line.empty() || line[0] == '#')
+        {
+            continue;
+        }
+
         std::stringstream ss(line);
         std::string cell;
 
@@ -116,6 +125,15 @@ Matrix read_csv_boston(const std::string &filepath, int num_rows)
     int rows_read = 0;
     while (std::getline(file, line) && (num_rows == -1 || rows_read < num_rows))
     {
+        // Trim leading whitespace
+        line.erase(0, line.find_first_not_of(" \t\n\r\f\v"));
+
+        // Skip empty lines or lines starting with '#'
+        if (line.empty() || line[0] == '#')
+        {
+            continue;
+        }
+
         std::stringstream ss(line);
         std::string cell;
         std::vector<double> row_vec;
