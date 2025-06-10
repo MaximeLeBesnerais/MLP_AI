@@ -1,7 +1,7 @@
 #ifndef SGD_HPP
 #define SGD_HPP
 
-#include "Optimizer.hpp"
+#include "optimizers/Optimizer.hpp"
 
 class SGD : public Optimizer
 {

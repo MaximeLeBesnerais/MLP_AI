@@ -1,7 +1,7 @@
 #ifndef ADAM_HPP
 #define ADAM_HPP
 
-#include "Optimizer.hpp"
+#include "optimizers/Optimizer.hpp"
 
 class Adam : public Optimizer
 {

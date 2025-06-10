@@ -1,7 +1,7 @@
 #ifndef OPTIMIZER_HPP
 #define OPTIMIZER_HPP
 
-#include "DenseLayer.hpp"
+#include "layers/DenseLayer.hpp"
 #include <vector>
 
 class Optimizer
