@@ -1,0 +1,29 @@
+# Compiled object files
+obj/
+*.o
+
+# Dependency files
+dep/
+*.d
+
+# Build files
+Makefile
+
+# Temporary files
+*.tmp
+*.log
+
+# Data files
+/data/*.csv
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Exclude binary executables
+mlp
